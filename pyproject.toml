@@ -1,0 +1,34 @@
+[project]
+name = "in-game-photography-cinematography"
+version = "1.0.0"
+description = "Claude Code harness for Virtual Photography & Game Cinematography — evidence-backed analysis and a self-improving knowledge crawl pipeline."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+authors = [{ name = "in-game-photography-cinematography contributors" }]
+keywords = ["in-game-photography", "game-cinematography", "virtual-photography", "claude-skill", "composition", "color-grading"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Multimedia :: Graphics",
+  "Topic :: Games/Entertainment",
+]
+dependencies = [
+  "feedparser>=6.0.10",
+  "python-dateutil>=2.8.2",
+  "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+crawl = ["crawl4ai>=0.3.0"]
+dev = []
+
+[project.scripts]
+knowledge-updater = "tools.knowledge_updater:main"
+
+[tool.setuptools]
+packages = ["tools"]

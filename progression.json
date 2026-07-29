@@ -1,0 +1,13 @@
+{
+  "skills": {
+    "209": {
+      "name": "in-game-photography-cinematography",
+      "domain": "Virtual Photography & Game Cinematography",
+      "version": "1.0.0",
+      "status": "complete",
+      "phases_complete": [0, 1, 2, 3, 4, 5],
+      "production_ready": true,
+      "completed_at": "2026-07-11"
+    }
+  }
+}

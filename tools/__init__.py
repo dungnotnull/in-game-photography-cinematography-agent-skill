@@ -1,0 +1,1 @@
+"""Tooling package for the in-game-photography-cinematography skill."""

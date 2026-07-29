@@ -1,0 +1,7 @@
+# Python tooling for the in-game-photography-cinematography knowledge pipeline.
+# Runtime: Python 3.11+
+feedparser>=6.0.10
+python-dateutil>=2.8.2
+requests>=2.31.0
+# Optional: crawl4ai enables richer dynamic-page fetching beyond RSS/REST.
+crawl4ai>=0.3.0
